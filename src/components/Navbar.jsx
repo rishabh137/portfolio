@@ -1,4 +1,5 @@
 import { Link } from "react-scroll"
+import Home from "./Home"
 
 const Navbar = () => {
     return (
@@ -25,6 +26,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
 
+                <Home />
             </div>
         </div>
     )
