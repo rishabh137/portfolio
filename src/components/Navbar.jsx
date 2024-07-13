@@ -23,7 +23,9 @@ const Navbar = () => {
                         <li>
                             <Link to="contact" smooth={true} duration={500}>Contact</Link>
                         </li>
+                        {/* <i class="fas fa-times" onClick="closemenu()"></i> */}
                     </ul>
+                    {/* <i class="fas fa-bars" onClick="openmenu()"></i> */}
                 </nav>
 
                 <Home />
