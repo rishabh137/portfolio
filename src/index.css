@@ -75,8 +75,10 @@ nav ul li a:hover::after {
   color: #ff004f;
 }
 
+.header-text .btn {
+  font-size: 20px;
+}
 
-/* About CSS */
 #about {
   padding: 80px 0;
   color: #ababab;
@@ -90,7 +92,6 @@ nav ul li a:hover::after {
 
 .about-col-1 {
   flex-basis: 35%;
-  /* means width is 35%*/
 }
 
 .about-col-1 img {
@@ -100,7 +101,6 @@ nav ul li a:hover::after {
 
 .about-col-2 {
   flex-basis: 60%;
-  /* means width is 60% */
 }
 
 .sub-title {
@@ -157,7 +157,6 @@ nav ul li a:hover::after {
   display: block;
 }
 
-/* Services CSS */
 #services {
   padding: 30px 0;
 }
@@ -202,7 +201,6 @@ nav ul li a:hover::after {
   transform: translatey(-10px);
 }
 
-/* Portfolio */
 #portfolio {
   padding: 50px 0;
   margin: 10rem 0;
@@ -226,7 +224,6 @@ nav ul li a:hover::after {
   border-radius: 10px;
   display: block;
   transition: 0.5s;
-  /* For zoom in of image */
 }
 
 .layer {
@@ -290,7 +287,6 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 
-/* Contact */
 .contact-left {
   flex-basis: 35%;
 }
@@ -365,23 +361,83 @@ form .btn2 {
   margin-top: 20px;
 }
 
-/* CSS for responsiveness */
 nav .fas {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
-  #header {
-    /* background-image: url(images/phone-background.png); */
+@media only screen and (max-width: 1400px) {
+  .header-text img {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .header-text img {
+    width: 350px;
   }
 
-  .header-text {
-    margin-top: 100%;
-    font-size: 16px;
+  .header-text h1 {
+    font-size: 45px;
+  }
+
+  .header-text p {
+    font-size: 28px;
+  }
+
+  .header-text .btn {
+    padding: 11px 20px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .header-text img {
+    width: 250px;
   }
 
   .header-text h1 {
     font-size: 30px;
+  }
+
+  .header-text p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .header-text {
+    font-size: 16px;
+    flex-direction: column;
+  }
+
+  .header-text div {
+    order: 2;
+    margin-top: 3rem;
+  }
+
+  .header-text div p {
+    font-size: 30px;
+  }
+
+  .header-text div h1 {
+    font-size: 50px;
+  }
+
+  .header-text div .btn {
+    font-size: 20px;
+  }
+
+  .header-text img {
+    order: 1;
+    width: 100%;
+  }
+
+  .header-text h1 {
+    font-size: 30px;
+  }
+
+  .header-text .btn {
+    font-size: 15px;
   }
 
   nav .fas {
@@ -415,5 +471,35 @@ nav .fas {
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .work {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+
+  .about-col-1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header-text div p {
+    font-size: 20px;
+  }
+
+  .header-text div h1 {
+    font-size: 35px;
+  }
+
+  .header-text div .btn {
+    font-size: 25px;
   }
 }

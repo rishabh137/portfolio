@@ -2,7 +2,7 @@ import { useState } from "react"
 import user from "./images/user.png"
 import work1 from "./images/talkwave.png"
 import work2 from "./images/recipeverse.png"
-import work3 from "./images/user.png"
+import work3 from "./images/mover.png"
 import resume from "./images/Rishabh_Raj.pdf"
 import Footer from "./Footer"
 
@@ -34,9 +34,9 @@ const MainContent = () => {
                                 <ul>
                                     <li><span>Programming Languages</span><br />JavaScript, Python</li>
                                     <li><span>Frontend Technologies</span><br />HTML, CSS, React.js, Tailwind CSS, Daisy UI</li>
-                                    <li><span>Backend Technologies</span><br />Node.js, Express.js, Django</li>
-                                    <li><span>Database</span><br />MongoDB, PostgreSQL</li>
-                                    <li><span>Tools & Platforms</span><br />Git, GitHub, RESTful APIs</li>
+                                    <li><span>Backend Technologies</span><br />Node.js, Express.js, REST APIs</li>
+                                    <li><span>Database</span><br />MongoDB, MySQL, PostgreSQL</li>
+                                    <li><span>Tools & Platforms</span><br />Git, GitHub</li>
                                 </ul>
                             </div>
 
@@ -63,7 +63,7 @@ const MainContent = () => {
                     <div className="services-list">
                         <div>
                             <i className="fa-solid fa-code"></i>
-                            <h2>Web Application Development</h2>
+                            <h2>Full Stack Development</h2>
                             <p style={{ fontSize: "16px" }}>Passionate full stack developer skilled in Javascript, dedicated to crafting robust and user-centric web applications. Excited about leveraging cutting-edge technologies to create seamless digital experiences. Committed to delivering scalable solutions that exceed client expectations. Ready to bring innovation and efficiency to your web projects.</p>
                         </div>
 
@@ -83,8 +83,8 @@ const MainContent = () => {
                         <div className="work">
                             <img src={work1} alt="project" />
                             <div className="layer">
-                                <h3>Social Media App</h3>
-                                <p>The web app enables users to share their thoughts, interact, and connect with others.</p>
+                                <h3>Talkwave</h3>
+                                <p>A social media web app that enable users to share their thoughts, interact, and connect with others.</p>
                                 <a href="https://talk-wave.onrender.com" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
@@ -92,25 +92,21 @@ const MainContent = () => {
                         <div className="work">
                             <img src={work2} alt="project" />
                             <div className="layer">
-                                <h3>Music App</h3>
-                                <p>The web app allows users to share their food recipes, which other users can view and cook.</p>
+                                <h3>Recipeverse</h3>
+                                <p>A recipe sharing web app that allow users to share their food recipes, which other users can view and cook.</p>
                                 <a href="https://github.com/rishabh137/recipeverse" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
 
                         <div className="work">
-                            {/* <img src={work3} alt="project" /> */}
-                            <h1 style={{ textAlign: "center" }}>coming soon...</h1>
+                            <img src={work3} alt="project" />
                             <div className="layer">
-                                <h3>Coming soon</h3>
-                                {/* <p>The app connects to the talented people around the world. Download it from play store.</p> */}
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquam, obcaecati facere consectetur.</p>
-                                <a href="/"><i className="fas fa-external-link-alt"></i></a>
+                                <h3>File Destination Mover</h3>
+                                <p>Python script to automatically organize downloaded files into designated directories based on file extensions</p>
+                                <a href="https://github.com/rishabh137/file-destination-mover" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
-
-                    {/* <a href="/" className="btn">See more</a> */}
                 </div>
             </div>
 
@@ -120,7 +116,7 @@ const MainContent = () => {
                         <div className="contact-left">
                             <h1 className="sub-title">Contact me</h1>
                             <p><i className="fas fa-paper-plane"></i> rishabhraj13951@gmail.com</p>
-                            <p><i className="fas fa-phone-square-alt"></i> 7488261069</p>
+                            <p><i className="fas fa-phone-square-alt"></i> +91-7488261069</p>
                             <div className="social-icons">
                                 <a href="https://www.instagram.com/rishabh_9462/" target="_blank"><i className="fab fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/in/rishabhi/" target="_blank"><i className="fab fa-linkedin"></i></a>
@@ -134,7 +130,6 @@ const MainContent = () => {
                                 <input type="email" name="Email" placeholder="Your Email" required />
                                 <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                                 <button type="submit" className="btn btn2">Submit</button>
-
                             </form>
                         </div>
 
