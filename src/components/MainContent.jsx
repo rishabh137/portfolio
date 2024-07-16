@@ -33,7 +33,7 @@ const MainContent = () => {
                             <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
                                 <ul>
                                     <li><span>Programming Languages</span><br />JavaScript, Python</li>
-                                    <li><span>Frontend Technologies</span><br />HTML, CSS, React.js, Tailwind CSS, Daisy UI</li>
+                                    <li><span>Frontend Technologies</span><br />React.js, Tailwind CSS, Daisy UI</li>
                                     <li><span>Backend Technologies</span><br />Node.js, Express.js, REST APIs</li>
                                     <li><span>Database</span><br />MongoDB, MySQL, PostgreSQL</li>
                                     <li><span>Tools & Platforms</span><br />Git, GitHub</li>
