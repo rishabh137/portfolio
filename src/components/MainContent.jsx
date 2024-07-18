@@ -33,7 +33,7 @@ const MainContent = () => {
                             <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
                                 <ul>
                                     <li><span>Programming Languages</span><br />JavaScript, Python</li>
-                                    <li><span>Frontend Technologies</span><br />React.js, Tailwind CSS, Daisy UI</li>
+                                    <li><span>Frontend Technologies</span><br />React.js, Tailwind CSS, Material UI, Daisy UI</li>
                                     <li><span>Backend Technologies</span><br />Node.js, Express.js, REST APIs</li>
                                     <li><span>Database</span><br />MongoDB, MySQL, PostgreSQL</li>
                                     <li><span>Tools & Platforms</span><br />Git, GitHub</li>
@@ -120,6 +120,7 @@ const MainContent = () => {
                             <div className="social-icons">
                                 <a href="https://www.instagram.com/rishabh_9462/" target="_blank"><i className="fab fa-instagram"></i></a>
                                 <a href="https://www.linkedin.com/in/rishabhi/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/rishabh137/" target="_blank"><i className="fab fa-github"></i></a>
                             </div>
                             <a href={resume} download="Rishabh_Raj" className="btn btn2">Download CV</a>
                         </div>
