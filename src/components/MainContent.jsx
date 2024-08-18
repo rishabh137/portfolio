@@ -3,6 +3,7 @@ import user from "./images/user.png"
 import work1 from "./images/talkwave.png"
 import work2 from "./images/recipeverse.png"
 import work3 from "./images/mover.png"
+import work4 from "./images/car rental.png"
 import resume from "./images/Rishabh_Raj.pdf"
 import Footer from "./Footer"
 
@@ -90,11 +91,11 @@ const MainContent = () => {
                         </div>
 
                         <div className="work">
-                            <img src={work3} alt="project" />
+                            <img src={work4} alt="project" />
                             <div className="layer">
                                 <h3>Car Rental Systme</h3>
                                 <p>Java Object Oriented project in which user can rent and return car while managing availability and calculating prie dynamically.</p>
-                                <a href="https://github.com/rishabh137/file-destination-mover" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/rishabh137/car-rental" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
 
