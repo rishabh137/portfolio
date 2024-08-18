@@ -69,8 +69,8 @@ const MainContent = () => {
 
                         <div>
                             <i className="fa-solid fa-crop-simple"></i>
-                            <h2>API Integration and Automation</h2>
-                            <p style={{ fontSize: "16px" }}>Aspiring developer with a focus on Python, specializing in API integration and automation solutions. Passionate about leveraging technology to streamline operations and enhance user experiences. Dedicated to delivering customized automation strategies that optimize processes and drive efficiency. Excited to contribute innovative solutions to your projects.</p>
+                            <h2>Java Service Developer</h2>
+                            <p style={{ fontSize: "16px" }}>Specializing in building robust and scalable Java services with a strong emphasis on object-oriented programming and API integration. Passionate about utilizing Java's powerful OOP principles to design modular and maintainable systems. Committed to delivering high-quality services that enhance system performance and support business goals.</p>
                         </div>
                     </div>
                 </div>
@@ -90,6 +90,15 @@ const MainContent = () => {
                         </div>
 
                         <div className="work">
+                            <img src={work3} alt="project" />
+                            <div className="layer">
+                                <h3>Car Rental Systme</h3>
+                                <p>Java Object Oriented project in which user can rent and return car while managing availability and calculating prie dynamically.</p>
+                                <a href="https://github.com/rishabh137/file-destination-mover" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div className="work">
                             <img src={work2} alt="project" />
                             <div className="layer">
                                 <h3>Recipeverse</h3>
@@ -102,7 +111,7 @@ const MainContent = () => {
                             <img src={work3} alt="project" />
                             <div className="layer">
                                 <h3>File Destination Mover</h3>
-                                <p>Python script to automatically organize downloaded files into designated directories based on file extensions</p>
+                                <p>Python script to automatically organize downloaded files into designated directories based on file extensions.</p>
                                 <a href="https://github.com/rishabh137/file-destination-mover" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
