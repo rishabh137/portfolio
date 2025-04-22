@@ -24,7 +24,7 @@ const MainContent = () => {
                         </div>
                         <div className="about-col-2">
                             <h1 className="sub-title">About Me</h1>
-                            <p className="me">Hi! I'm Rishabh Raj, a passionate full-stack developer with a degree in Bachelor of Engineering in Computer Science from Sant Longowal Institute of Engineering and Technology. I specialize in building dynamic and responsive web applications using the MERN stack, with skills in React.js, Node.js, Express.js, MongoDB and Python. I have a strong foundation in both frontend and backend development, and I enjoy tackling new challenges and learning continuously. I look forward to contributing my skills and enthusiasm to a dynamic development team and working on innovative projects.</p>
+                            <p className="me">Hi! I'm Rishabh Raj, a passionate full-stack developer with a degree in Bachelor of Engineering in Computer Science from Sant Longowal Institute of Engineering and Technology. I specialize in building dynamic and responsive web applications using  Angular, React.js, Node.js, Express.js, MongoDB, Java. I have a strong foundation in both frontend and backend development, and I enjoy tackling new challenges and learning continuously. I look forward to contributing my skills and enthusiasm to a dynamic development team and working on innovative projects.</p>
 
                             <div className="tab-titles">
                                 <p className={`tab-links ${activeTab === "skills" ? 'active-link' : ""}`} onClick={() => opentab('skills')}>Skills</p>
@@ -33,24 +33,29 @@ const MainContent = () => {
                             </div>
                             <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
                                 <ul>
-                                    <li><span>Programming Languages</span><br />JavaScript, Python</li>
-                                    <li><span>Frontend Technologies</span><br />React.js, Tailwind CSS, Material UI, Daisy UI</li>
+                                    <li><span>Programming Languages</span><br />Java, C++, Javascript</li>
+                                    <li><span>Frontend Technologies</span><br />Angular, React.js, Tailwind CSS, Material UI, Daisy UI</li>
                                     <li><span>Backend Technologies</span><br />Node.js, Express.js, REST APIs</li>
-                                    <li><span>Database</span><br />MongoDB, MySQL, PostgreSQL</li>
+                                    <li><span>Database</span><br />PostgreSQL, MongoDB</li>
                                     <li><span>Tools & Platforms</span><br />Git, GitHub</li>
                                 </ul>
                             </div>
 
                             <div className={`tab-contents ${activeTab === "experience" ? 'active-tab' : ""}`} id="experience">
                                 <ul>
-                                    <li><span>June 2024 - Current</span><br />Virtual Internship at Extion Infotech.</li>
+                                    <li style={{ marginBottom: "-10px" }}><span style={{ fontSize: "20px" }}>Clerisy Solutions Private Limited</span> <span style={{ marginLeft: "21rem", color: "#ababab" }}>April 2025 - Present</span></li>
+                                    <li><span style={{ fontSize: "18px" }}>Full-Stack Developer</span> <span style={{ marginLeft: "32.7rem", color: "#ababab" }}>Mohali, India</span></li>
+                                    <li style={{ listStyle: "circle" }}>Developed and integrated a game search feature to enhance user navigation and interaction on a US-based client casino website.</li>
+                                    <li style={{ listStyle: "circle" }}>Implemented dynamic footer content, fetching real-time data from the client's server to ensure relevant and updated information is displayed to users.</li>
+                                    <li style={{ listStyle: "circle" }}>Built a game widget that enables users to play games in a resizable window with real-time data on free spins and remaining coins.</li>
+                                    <li style={{ listStyle: "circle" }}>Utilized Socket.IO (sock.js and stomp.js) to ensure seamless real-time communication, delivering up-to-date game information and improving user experience.</li>
                                 </ul>
                             </div>
 
                             <div className={`tab-contents ${activeTab === "education" ? 'active-tab' : ""}`} id="education">
                                 <ul>
-                                    <li><span>August 2022 - Current</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
-                                    <li><span>August 2019 - June 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>August 2022 - 2025</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>August 2019 - 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
                                 </ul>
                             </div>
                         </div>
@@ -71,8 +76,14 @@ const MainContent = () => {
                         <div>
                             <i className="fa-solid fa-crop-simple"></i>
                             <h2>Java Service Developer</h2>
-                            <p style={{ fontSize: "16px" }}>Specializing in building robust and scalable Java services with a strong emphasis on object-oriented programming and API integration. Passionate about utilizing Java's powerful OOP principles to design modular and maintainable systems. Committed to delivering high-quality services that enhance system performance and support business goals.</p>
+                            <p style={{ fontSize: "16px" }}>Specializing in building robust and scalable Java services with a strong emphasis on object-oriented programming. Passionate about utilizing Java's powerful OOP principles to design modular and maintainable systems. Committed to delivering high-quality services that enhance system performance and support business goals.</p>
                         </div>
+
+                        {/* <div>
+                            <i className="fa-solid fa-crop-simple"></i>
+                            <h2>Aspiring Python Developer</h2>
+                            <p style={{ fontSize: "16px" }}>Aspiring developer with a focus on Python, delivering customized solutions that optimize processes and drive efficiency. Passionate about leveraging technology to enhance user experiences. Dedicated to contributing innovative solutions to your projects.</p>
+                        </div> */}
                     </div>
                 </div>
             </div>
