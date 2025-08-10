@@ -3,7 +3,7 @@ import user from "./images/user.png"
 import work1 from "./images/talkwave.png"
 import work2 from "./images/recipeverse.png"
 import work3 from "./images/mover.png"
-import work4 from "./images/car rental.png"
+import work4 from "./images/codex.png"
 import resume from "./images/Rishabh_Raj.pdf"
 import Footer from "./Footer"
 
@@ -34,8 +34,7 @@ const MainContent = () => {
                             <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
                                 <ul>
                                     <li><span>Programming Languages</span><br />Java, C++, Javascript</li>
-                                    <li><span>Frontend Technologies</span><br />Angular, React.js, Tailwind CSS, Material UI, Daisy UI</li>
-                                    <li><span>Backend Technologies</span><br />Node.js, Express.js, REST APIs</li>
+                                    <li><span>Technologies</span><br />Angular, React.js, Node.js, Loopback, Express.js, <br /> Socket.IO, TypeScript, REST APIs</li>
                                     <li><span>Database</span><br />PostgreSQL, MongoDB</li>
                                     <li><span>Tools & Platforms</span><br />Git, GitHub</li>
                                 </ul>
@@ -45,17 +44,16 @@ const MainContent = () => {
                                 <ul>
                                     <li style={{ marginBottom: "-10px" }}><span style={{ fontSize: "20px" }}>Clerisy Solutions Private Limited</span> <span style={{ marginLeft: "21rem", color: "#ababab" }}>April 2025 - Present</span></li>
                                     <li><span style={{ fontSize: "18px" }}>Full-Stack Developer</span> <span style={{ marginLeft: "32.7rem", color: "#ababab" }}>Mohali, India</span></li>
-                                    <li style={{ listStyle: "circle" }}>Developed and integrated a game search feature to enhance user navigation and interaction on a US-based client casino website.</li>
-                                    <li style={{ listStyle: "circle" }}>Implemented dynamic footer content, fetching real-time data from the client's server to ensure relevant and updated information is displayed to users.</li>
-                                    <li style={{ listStyle: "circle" }}>Built a game widget that enables users to play games in a resizable window with real-time data on free spins and remaining coins.</li>
-                                    <li style={{ listStyle: "circle" }}>Utilized Socket.IO (sock.js and stomp.js) to ensure seamless real-time communication, delivering up-to-date game information and improving user experience.</li>
+                                    <li style={{ listStyle: "circle" }}>Enhanced key modules for the International Booking Engine (IBE), property management system (PMS), and admin portal of a hospitality SaaS platform.</li>
+                                    <li style={{ listStyle: "circle" }}>Built a centralized admin interface to disable, update, and delete IBE hotels from one location, reducing admin task time by 40% by replacing scattered workflows.</li>
+                                    <li style={{ listStyle: "circle" }}>Worked on the hotel onboarding section in the admin portal to enable creation of a new hotel with its admin site, credentials, and default theme in a few steps, cutting setup time for Admin and Sales teams by 50%.</li>
                                 </ul>
                             </div>
 
                             <div className={`tab-contents ${activeTab === "education" ? 'active-tab' : ""}`} id="education">
                                 <ul>
-                                    <li><span>August 2022 - 2025</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
-                                    <li><span>August 2019 - 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>July 2022 - 2025</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>July 2019 - 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
                                 </ul>
                             </div>
                         </div>
@@ -70,13 +68,13 @@ const MainContent = () => {
                         <div>
                             <i className="fa-solid fa-code"></i>
                             <h2>Full Stack Development</h2>
-                            <p style={{ fontSize: "16px" }}>Passionate full stack developer skilled in Javascript, dedicated to crafting robust and user-centric web applications. Excited about leveraging cutting-edge technologies to create seamless digital experiences. Committed to delivering scalable solutions that exceed client expectations. Ready to bring innovation and efficiency to your web projects.</p>
+                            <p style={{ fontSize: "16px" }}>As a Full Stack Developer, I have expertise in Java, C++, and Python. I specialize in building efficient and scalable applications using technologies like Angular, React.js, and Node.js, along with databases such as MySQL, PostgreSQL, and MongoDB, enabling effective data management. With strong attention to detail and a commitment to delivering high-quality solutions, I am committed to develop robust and user-friendly applications.</p>
                         </div>
 
                         <div>
                             <i className="fa-solid fa-crop-simple"></i>
-                            <h2>Java Service Developer</h2>
-                            <p style={{ fontSize: "16px" }}>Specializing in building robust and scalable Java services with a strong emphasis on object-oriented programming. Passionate about utilizing Java's powerful OOP principles to design modular and maintainable systems. Committed to delivering high-quality services that enhance system performance and support business goals.</p>
+                            <h2>Automation</h2>
+                            <p style={{ fontSize: "16px" }}>I develop automation scripts and bots using JavaScript, Selenium, and APIs to streamline repetitive tasks, extract and organize data, and integrate workflows - saving time and improving efficiency for businesses.</p>
                         </div>
 
                         {/* <div>
@@ -93,20 +91,20 @@ const MainContent = () => {
                     <h1 className="sub-title">My Work</h1>
                     <div className="work-list">
                         <div className="work">
+                            <img src={work4} alt="project" />
+                            <div className="layer">
+                                <h3>codeX</h3>
+                                <p>Built a real-time video conferencing platform with integrated collaborative code editor using React.js, Node.js, WebRTC, PeerJS, and Socket.IO for synchronized multi-user interactions.</p>
+                                <a href="https://codex-play.onrender.com/" target="_blank"><i className="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div className="work">
                             <img src={work1} alt="project" />
                             <div className="layer">
                                 <h3>Talkwave</h3>
                                 <p>A social media web app that enable users to share their thoughts, interact, and connect with others.</p>
                                 <a href="https://talk-wave.onrender.com" target="_blank"><i className="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-
-                        <div className="work">
-                            <img src={work4} alt="project" />
-                            <div className="layer">
-                                <h3>Car Rental Systme</h3>
-                                <p>Java Object Oriented project in which user can rent and return car while managing availability and calculating prie dynamically.</p>
-                                <a href="https://github.com/rishabh137/car-rental" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
                         </div>
 
@@ -119,14 +117,14 @@ const MainContent = () => {
                             </div>
                         </div>
 
-                        <div className="work">
+                        {/* <div className="work">
                             <img src={work3} alt="project" />
                             <div className="layer">
                                 <h3>File Destination Mover</h3>
                                 <p>Python script to automatically organize downloaded files into designated directories based on file extensions.</p>
                                 <a href="https://github.com/rishabh137/file-destination-mover" target="_blank"><i className="fas fa-external-link-alt"></i></a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

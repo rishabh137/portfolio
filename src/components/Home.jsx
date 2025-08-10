@@ -6,7 +6,7 @@ const Home = () => {
         <>
             <div className="header-text">
                 <div>
-                    <p>Full stack Developer</p>
+                    <p>Full-Stack Developer</p>
                     <h1>Hi, I'm <span>Rishabh</span> <br /> Raj From India</h1>
                     <a href={resume} className="btn btn2" download="Rishabh_Raj">Download CV</a>
                 </div>
