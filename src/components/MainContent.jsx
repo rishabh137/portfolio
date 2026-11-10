@@ -31,29 +31,65 @@ const MainContent = () => {
                                 <p className={`tab-links ${activeTab === "experience" ? 'active-link' : ""}`} onClick={() => opentab('experience')}>Experience</p>
                                 <p className={`tab-links ${activeTab === "education" ? 'active-link' : ""}`} onClick={() => opentab('education')}>Education</p>
                             </div>
-                            <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
+                           <div className={`tab-contents ${activeTab === "skills" ? 'active-tab' : ""}`} id="skills">
                                 <ul>
-                                    <li><span>Programming Languages</span><br />Java, C++, Javascript</li>
-                                    <li><span>Technologies</span><br />Angular, React.js, Node.js, Loopback, Express.js, <br /> Socket.IO, TypeScript, REST APIs</li>
-                                    <li><span>Database</span><br />PostgreSQL, MongoDB</li>
-                                    <li><span>Tools & Platforms</span><br />Git, GitHub</li>
+                                    <li><span>Programming Languages</span><br />JavaScript, TypeScript, Java, C++, SQL</li>
+                                    <li><span>Technologies</span><br />Angular, React.js, Node.js, LoopBack, Express.js, RxJS, Socket.IO, WebRTC, REST APIs, JWT Authentication</li>
+                                    <li><span>Database</span><br />PostgreSQL, MongoDB, MySQL, Redis</li>
+                                    <li><span>Core CS</span><br />Data Structures and Algorithms, OOP, DBMS, Operating Systems, Computer Networks</li>
+                                    <li><span>Tools & Platforms</span><br />Git, GitHub, Postman, Docker, Selenium</li>
                                 </ul>
                             </div>
 
                             <div className={`tab-contents ${activeTab === "experience" ? 'active-tab' : ""}`} id="experience">
                                 <ul>
-                                    <li style={{ marginBottom: "-10px" }}><span style={{ fontSize: "20px" }}>Clerisy Solutions Private Limited</span> <span style={{ marginLeft: "21rem", color: "#ababab" }}>April 2025 - Present</span></li>
-                                    <li><span style={{ fontSize: "18px" }}>Full-Stack Developer</span> <span style={{ marginLeft: "32.7rem", color: "#ababab" }}>Mohali, India</span></li>
-                                    <li style={{ listStyle: "circle" }}>Enhanced key modules for the International Booking Engine (IBE), property management system (PMS), and admin portal of a hospitality SaaS platform.</li>
-                                    <li style={{ listStyle: "circle" }}>Built a centralized admin interface to disable, update, and delete IBE hotels from one location, reducing admin task time by 40% by replacing scattered workflows.</li>
-                                    <li style={{ listStyle: "circle" }}>Worked on the hotel onboarding section in the admin portal to enable creation of a new hotel with its admin site, credentials, and default theme in a few steps, cutting setup time for Admin and Sales teams by 50%.</li>
+                                    <li style={{ marginBottom: "-10px" }}>
+                                        <span style={{ fontSize: "20px" }}>Clerisy Solutions Private Limited</span>
+                                        <span style={{ marginLeft: "21rem", color: "#ababab" }}>April 2025 - Present</span>
+                                    </li>
+                                    <li>
+                                        <span style={{ fontSize: "18px" }}>Full-Stack Developer</span>
+                                        <span style={{ marginLeft: "32.7rem", color: "#ababab" }}>Mohali, India</span>
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Developed a hotel onboarding workflow in the admin portal to automate hotel setup, including admin site creation, credential configuration and default theme assignment, reducing setup time for Admin and Sales teams by 50%.
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Developed end-to-end features across the International Booking Engine (IBE), Property Management System (PMS) and admin portal, building Angular components, developing REST APIs using Node.js and LoopBack, and managing PostgreSQL queries and database schema updates.
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Implemented configurable Content Security Policy (CSP) middleware for the International Booking Engine (IBE), supporting Report-Only and Enforcement modes to monitor and enforce security policies and mitigate cross-site scripting (XSS) risks.
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Implemented GA4 ecommerce event tracking using Google Tag Manager across the hotel booking funnel, covering add_to_cart, begin_checkout, cart_item_modified, add_payment_info and purchase events.
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Built UpMate, a JavaScript and Selenium automation tool that scrapes Upwork job listings and categorizes them by technology into Google Sheets, saving the team several hours of manual work weekly.
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li style={{ marginBottom: "-10px" }}>
+                                        <span style={{ fontSize: "20px" }}>Clerisy Solutions Private Limited</span>
+                                        <span style={{ marginLeft: "21rem", color: "#ababab" }}>January 2025 - March 2025</span>
+                                    </li>
+                                    <li>
+                                        <span style={{ fontSize: "18px" }}>Full-Stack Developer Intern</span>
+                                        <span style={{ marginLeft: "32.7rem", color: "#ababab" }}>Mohali, India</span>
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Implemented a scheduled cron job to synchronize Property Management System (PMS) updates with the International Booking Engine (IBE) every 20 minutes, ensuring hotel data remained up to date.
+                                    </li>
+                                    <li style={{ listStyle: "circle" }}>
+                                        Gained an understanding of the hospitality SaaS platform, its architecture, and the interaction between the PMS and IBE.
+                                    </li>
                                 </ul>
                             </div>
 
                             <div className={`tab-contents ${activeTab === "education" ? 'active-tab' : ""}`} id="education">
                                 <ul>
-                                    <li><span>July 2022 - 2025</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
-                                    <li><span>July 2019 - 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>Aug 2022 - 2025</span><br />Bachelor of Engineering from Sant Longowal Institute of Engineering and Technology</li>
+                                    <li><span>Aug 2019 - 2022</span><br />Diploma from Sant Longowal Institute of Engineering and Technology</li>
                                 </ul>
                             </div>
                         </div>
